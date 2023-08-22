@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+    font-family: Roboto;
+}
+
+.title{
+    font-size: 4.1rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 17%;
+    font-family: Roboto;
+    margin-bottom: 0;
+}
+
+section{
+    min-height: 100vh;
+}
+
+#home{
+    background: linear-gradient(160deg, rgb(241, 85, 85), rgb(248, 193, 202));
+}
+
+#career{
+    background: linear-gradient(160deg, rgb(247, 85, 179), rgb(255, 183, 233));
+}
+
+#contact{
+    background: linear-gradient(160deg, rgb(125, 81, 248), rgb(192, 201, 251));
+}
+
+#about{
+    background: linear-gradient(160deg, rgb(15, 14, 14), rgb(122, 121, 121));
+}
+
+@media (max-width: 450px){
+    .title {
+        font-size: 3rem;
+        padding-top: 50%;
+    }
 }
